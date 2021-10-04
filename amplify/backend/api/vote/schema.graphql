@@ -1,0 +1,9 @@
+type voteTable @model 
+  @key(fields: ["title"])
+{
+  title: String!
+  category: String!
+  date: String!
+  url: String!
+  voteCount: Int!
+}
